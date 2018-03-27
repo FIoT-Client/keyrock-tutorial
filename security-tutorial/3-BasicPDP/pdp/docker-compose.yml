@@ -1,0 +1,6 @@
+pdp-proxy:
+    restart: always
+    image: fiware/authzforce-ce-server:release-5.4.1
+    container_name: azf
+    ports:
+      - "8080:8080"

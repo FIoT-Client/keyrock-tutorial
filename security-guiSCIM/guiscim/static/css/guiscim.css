@@ -1,0 +1,84 @@
+h1{
+    font-family: 'Lobster';
+}
+
+#listaruser{
+
+	padding-top: 61;
+}
+
+#funcoes{
+	padding-left: 256;
+}
+#cabecalho {
+    padding-left: 268;
+}
+#criaruser{
+	padding-top: 10;
+}
+#senha{
+
+	padding-right: 24;
+
+}
+#nome{
+
+	padding-right: 28;
+
+}
+
+#nick_app{
+
+   margin-left: 4;
+
+}
+
+#nick_p{
+
+   margin-left: 30;
+
+}
+#nick_p1{
+
+   margin-left: 30;
+
+}
+#nick_a1{
+
+   margin-left: 20;
+
+}
+
+#email{
+
+	padding-right: 30;
+
+}
+
+#criarb{
+
+	margin-top: 18;
+	margin-left: 207;
+}
+#criara{
+
+	margin-top: 18;
+	margin-left: 197;
+}
+#del{
+    margin-top: 25;
+}
+#delb{
+
+    margin-left: 192;
+    margin-top: 18;
+}
+#reca{
+
+	margin-top: 18;
+	margin-left: 174;
+}
+#nick_h{
+        margin-left: 61;
+
+}

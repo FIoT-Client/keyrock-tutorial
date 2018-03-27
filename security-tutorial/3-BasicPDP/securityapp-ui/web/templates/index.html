@@ -1,0 +1,52 @@
+{% extends "_base.html" %} 
+{% block content %}
+    {% if error %}
+    <div class="alert alert-danger">
+        <p class=error><strong>Error:</strong> {{ error }}
+    </div>
+    {% endif %}
+
+	<div class="page-header">
+        <h1>SecurityApp UI</h1>
+        <p class="lead">Basic Interface SecurityApp</p>
+    </div>
+
+	<div>
+        {% if content %}
+		    {{content}}
+            <hr>
+        {% endif %}
+	</div>
+
+	<br>
+
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Auth</a></li>
+        <li><a data-toggle="tab" href="#menu1">Domain</a></li>
+        <li><a data-toggle="tab" href="#menu2">Keyrock User</a></li>
+        <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+            <h3>Auth</h3>
+            <br>
+            {% include 'auth.html' %}
+        </div>
+        <div id="menu1" class="tab-pane fade">
+            <h3>Domain</h3>
+            <br>
+            {% include 'domain.html' %}
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <h3>Keyrock User</h3>
+            <br>
+            {% include 'keyrock_user.html' %}
+        </div>
+        <div id="menu3" class="tab-pane fade">
+          <h3>Menu 3</h3>
+          <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+    </div>
+
+{% endblock %}

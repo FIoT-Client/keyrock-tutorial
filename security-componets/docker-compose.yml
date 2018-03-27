@@ -1,0 +1,35 @@
+# SGeOL Docker 
+# Build: docker-compose pull
+# Run: docker-compose up 
+# Run in daemon: docker-compose up -d
+
+
+authzforce:
+     image: fiware/authzforce-ce-server:release-5.4.1
+     hostname: authzforce
+     container_name: authzforce
+     expose:
+         - "8080" 
+     ports: 
+         - "8080:8080"
+keyrock:
+     build: keyrock
+     hostname: keyrock
+     container_name: keyrock
+     expose:
+         - "5000"
+         - "8000"
+     ports:
+         - "5000:5000"
+         - "8000:8000"
+pepproxy:
+     build: fiware-pep-proxy
+     hostname: pepproxy
+     container_name: pepproxy
+     expose:
+         - "80"
+     ports:
+         - "80:80"
+     links:
+         - authzforce
+         - keyrock 

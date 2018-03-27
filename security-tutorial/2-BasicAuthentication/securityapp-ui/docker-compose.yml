@@ -1,0 +1,9 @@
+web:
+  restart: always
+  build: ./web
+  ports:
+    - "5055:5055" 
+  volumes:
+    - /usr/src/app/static
+  env_file: .env
+  command: /usr/local/bin/gunicorn -w 2 -b :5055 app:app
