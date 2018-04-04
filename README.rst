@@ -1,13 +1,6 @@
 *************************************
 Tutorial para Aplicações com Fiware 
 *************************************
-
-.. contents::
-   :local:
-   :depth: 3
-
-
-.. _autores:
  
 
  Autores
@@ -19,7 +12,6 @@ Tutorial para Aplicações com Fiware
     - Carlos Eduardo da Silva
     - Gabriela Cavalcante da Silva
     
-.. _introducao:
 
 Introdução
 ==========
@@ -36,8 +28,6 @@ O **Authorization PDP** GE (PDP) é o componente responsável por gerenciar pol�
 O **PEP Proxy** GE (PEP) atua como ponto de aplicação de políticas de segurança na forma de um proxy-reverso HTTP, com o objetivo de proteger serviços REST. Este componente intercepta as requisições para o serviço, interage com o IdM para autenticar a requisição e o token da entidade cliente anexado à requisição, e em seguida interage com o PDP que autoriza ou não o acesso ao serviço. Além de validar o token e a requisição por meio do IdM, o PEP também recupera informações sobre o token, e seu usuário, deste mesmo componente. Para tomar uma decisão de acesso, o PDP leva em consideração a política de segurança definida, informações acerca da requisição do cliente, e informações acerca do token enviado (tais como atributos do cliente obtidos do IdM). O PEP aplica a decisão do PDP, e em caso positivo, encaminha a requisição ao serviço, e a resposta do serviço ao cliente. A implementação de referência para este GE é o \textbf{Wilma}. A plataforma FIWARE suporta a utilização de outros PEPs, como por exemplo PEPs que protejam serviços não-REST ou serviços que utilizem outros protocolos além de HTTP.
 
 Neste contexto, esse tutorial tem como objetivo ensinar aos usuários como conceber aplicações seguras utilizando conceitos autenticação e autorização através do uso das GE's de segurança da plataforma FIWARE. 
-
-.. _InstalacaoAmbiente:
 
 Instalação do ambiente
 =======================
