@@ -74,15 +74,15 @@ Tutorial para Aplicações com Fiware
 				Ao entrar na conta de administrador cadastre uma nova aplicação seguindo as instruções abaixo:
 				 
 				- Para registrar uma aplicação clique no botão "register" como mostra a figura abaixo: 
-				.. image:: imagens/registro-app.png
+				.. image:: documentacao/source/imagens/registro-app.png
 				- Então siga os três passos para concluir o registro, inicialmente cadastre o nome da aplicação, sua descrição, a url da aplicação e a url de redirecionamento para onde o token de usuário será enviado.
-				.. image:: imagens/info-registro.png
+				.. image:: documentacao/source/imagens/info-registro.png
 				- Aperte em "next" e escolha uma imagem para a aplicação, essa imagem é opcional
-				.. image:: imagens/exibir-aplicacao.png
+				.. image:: documentacao/source/imagens/exibir-aplicacao.png
 				- Por fim, identifique a política de acesso para a sua aplicação, você poderá criar novas permissões e papéis através dessa interface.
-				.. image:: imagens/developer-portal.png    
+				.. image:: documentacao/source/imagens/developer-portal.png    
 				- Após o término da configuração teremos essa página:
-				.. image:: imagens/infos-cadastradas.png
+				.. image:: documentacao/source/imagens/infos-cadastradas.png
 
 				Onde as informações de client secret serão usuadas na sua aplicação. Na mesma página gere um PEP-Proxy, e use suas credenciais na sua aplicação também, essas informações devem ser editadas no guia de configuração.
 
