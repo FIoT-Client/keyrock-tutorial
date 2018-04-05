@@ -112,5 +112,53 @@ Aplicações
 
 Antes de começar é necessário escolher qual aplicação você deseja utilizar, assim você poderá escolher entre as seguintes
 
+Aplicação 1
+^^^^^^^^^^^^
+
+A aplicação 1 suporta projetos que possuem a seguinte arquitetura, onde o usuário não utiliza nenhuma GE FIWARE e também não possui segurança:
+
+.. image:: documentacao/source/imagens/app1.png 
+
+Aplicação 2
+^^^^^^^^^^^^
+
+A aplicação 2 suporta projetos que possuem a seguinte arquitetura, onde o usuário utiliza apenas a autenticação em seu projeto e assim utiliza também o keyrock:
+
+.. image:: documentacao/source/imagens/app2.png 
+
+Aplicação 3
+^^^^^^^^^^^^
+
+A aplicação 3 suporta projetos que possuem a seguinte arquitetura, onde temos também a presença da criação de um PDP e sua configuração, onde o objetivo da aplicação é exibir os dados e informações presentes no domínio do PDP:
+
+.. image:: documentacao/source/imagens/app3.png  
+
+Aplicação 4
+^^^^^^^^^^^^
+
+A aplicação 4 suporta projetos que possuem a seguinte arquiterura, tendo além do keyrock, o pepproxy para realizar a verificação e validade dos tokens emitidos pelo keyrock:
+
+.. image:: documentacao/source/imagens/app4.png
+ 
+Aplicação 5
+^^^^^^^^^^^^
+
+A aplicação 5 suporta projetos que possuem a seguinte arquitetura, que possui o keyrock, PEP e PDP:
+
+.. image:: documentacao/source/imagens/app5.png 
+
+            
+Configuração do ambiente virtual para front-end
+------------------------------------------------
+
+Executando a Aplicação Web
+---------------------------
+
+Usando a Aplicação com os dispositivos de Segurança
+===================================================
+        
+
+
+
 
 
