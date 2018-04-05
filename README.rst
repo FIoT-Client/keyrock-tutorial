@@ -38,22 +38,25 @@ Instalação do ambiente
 
 Agora iremos aprender a instalar o ambiente que você utilizará em sua aplicação
 
-.. begin-conceituacaoTeorica
 
-    Instalando o back-end: Docker (Infraestura com GE's FIWARE)
 
-	        Antes de colocar a infra em execução é necessário realizar algumas instalações:
+Instalando o back-end: Docker (Infraestura com GE's FIWARE)
+-----------------------------------------------------------
 
-			- Para a instalação do docker siga o tutorial disponível em: `Instalação do Docker <https://www.digitalocean.com/community/tutorials/como-instalar-e-usar-o-docker-no-ubuntu-16-04-pt>`_
+.. begin-docker
 
-			- Para instalação do docker-compose siga o tutorial disponível em: `Instalação do docker-compose <https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-16-04>`_
+Antes de colocar a infra em execução é necessário realizar algumas instalações:
 
-			- Para instalação do docker-machine siga o tutorial disponível em: `Instalação do docker-machine <https://www.digitalocean.com/community/tutorials/how-to-provision-and-manage-remote-docker-hosts-with-docker-machine-on-ubuntu-16-04>`_
+	- Para a instalação do docker siga o tutorial disponível em: `Instalação do Docker <https://www.digitalocean.com/community/tutorials/como-instalar-e-usar-o-docker-no-ubuntu-16-04-pt>`_
 
-			Após a instalação é necessário fazer clone ou download deste repositório:
+	- Para instalação do docker-compose siga o tutorial disponível em: `Instalação do docker-compose <https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-16-04>`_
 
-			- Faça clone deste repositório: `keyrock-tutorial <https://github.com/FIoT-Client/keyrock-tutorial>`_
-.. end-conceituacaoTeorica
+	- Para instalação do docker-machine siga o tutorial disponível em: `Instalação do docker-machine <https://www.digitalocean.com/community/tutorials/how-to-provision-and-manage-remote-docker-hosts-with-docker-machine-on-ubuntu-16-04>`_
+
+Após a instalação é necessário fazer clone ou download deste repositório:
+
+	- Faça clone deste repositório: `keyrock-tutorial <https://github.com/FIoT-Client/keyrock-tutorial>`_
+.. end-docker
 
         Configuração do ambiente virtual para o back-end
 
