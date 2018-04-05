@@ -38,12 +38,10 @@ Instalação do ambiente
 
 Agora iremos aprender a instalar o ambiente que você utilizará em sua aplicação
 
-
-
 Instalando o back-end: Docker (Infraestura com GE's FIWARE)
 -----------------------------------------------------------
 
-.. begin-docker
+
 
 Antes de colocar a infra em execução é necessário realizar algumas instalações:
 
@@ -56,7 +54,7 @@ Antes de colocar a infra em execução é necessário realizar algumas instalaç
 Após a instalação é necessário fazer clone ou download deste repositório:
 
 	- Faça clone deste repositório: `keyrock-tutorial <https://github.com/FIoT-Client/keyrock-tutorial>`_
-.. end-docker
+
 
         Configuração do ambiente virtual para o back-end
 
