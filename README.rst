@@ -67,46 +67,54 @@ Após efetuar os passos da instalação é necessário configurar o ambiente par
 				
 	ACCESS_CONTROL_URL = 'IP-MÁQUINA:8080'
 
-            Executando a infraestrutura
+Executando a infraestrutura
+----------------------------
 
-            	Após efetuar os passos de Instalação e Configuração, para executar a infraestrutura é necesário:
+Após efetuar os passos de Instalação e Configuração, para executar a infraestrutura é necesário:
 
-				- Acessar a pasta keyrock-tutorial/security-components e efetuar o seguinte comando.::
+- Acessar a pasta keyrock-tutorial/security-components e efetuar o seguinte comando.::
 					
-					sudo docker-compose build
+	sudo docker-compose build
 
-				- Logo após o término dessa execução é necessário efetuar.::
+- Logo após o término dessa execução é necessário efetuar.::
 
-					sudo docker-compose up
+	sudo docker-compose up
 
-		Criando uma Aplicação no FIWARE
+Criando uma Aplicação no FIWARE
+================================
 
-            	Em seu navegador acesse o endereço do <IP-Máquina>:8000 acessando assim a interface do keyrock. Para conseguir efetuar o login utilize a seguinte conta.:: 
-            		Usuário: idm
-            		Senha: idm
+Em seu navegador acesse o endereço do <IP-Máquina>:8000 acessando assim a interface do keyrock. Para conseguir efetuar o login utilize a seguinte conta.:: 
+    Usuário: idm
+    Senha: idm
  
-				Ao entrar na conta de administrador cadastre uma nova aplicação seguindo as instruções abaixo:
+Ao entrar na conta de administrador cadastre uma nova aplicação seguindo as instruções abaixo:
 				 
-				- Para registrar uma aplicação clique no botão "register" como mostra a figura abaixo: 
-				.. image:: documentacao/source/imagens/registro-app.png
-				- Então siga os três passos para concluir o registro, inicialmente cadastre o nome da aplicação, sua descrição, a url da aplicação e a url de redirecionamento para onde o token de usuário será enviado.
-				.. image:: documentacao/source/imagens/info-registro.png
-				- Aperte em "next" e escolha uma imagem para a aplicação, essa imagem é opcional
-				.. image:: documentacao/source/imagens/exibir-aplicacao.png
-				- Por fim, identifique a política de acesso para a sua aplicação, você poderá criar novas permissões e papéis através dessa interface.
-				.. image:: documentacao/source/imagens/developer-portal.png    
-				- Após o término da configuração teremos essa página:
-				.. image:: documentacao/source/imagens/infos-cadastradas.png
+- Para registrar uma aplicação clique no botão "register" como mostra a figura abaixo: 
+.. image:: documentacao/source/imagens/registro-app.png
+- Então siga os três passos para concluir o registro, inicialmente cadastre o nome da aplicação, sua descrição, a url da aplicação e a url de redirecionamento para onde o token de usuário será enviado.
+.. image:: documentacao/source/imagens/info-registro.png
+- Aperte em "next" e escolha uma imagem para a aplicação, essa imagem é opcional
+.. image:: documentacao/source/imagens/exibir-aplicacao.png
+- Por fim, identifique a política de acesso para a sua aplicação, você poderá criar novas permissões e papéis através dessa interface.
+.. image:: documentacao/source/imagens/developer-portal.png    
+- Após o término da configuração teremos essa página:
+.. image:: documentacao/source/imagens/infos-cadastradas.png
 
-				Onde as informações de client secret serão usuadas na sua aplicação. Na mesma página gere um PEP-Proxy, e use suas credenciais na sua aplicação também, essas informações devem ser editadas no guia de configuração.
+Onde as informações de client secret serão usuadas na sua aplicação. Na mesma página gere um PEP-Proxy, e use suas credenciais na sua aplicação também, essas informações devem ser editadas no guia de configuração.
 
-        Instalando o front-end : Docker (Aplicações Web)
+Instalando o front-end : Docker (Aplicações Web)
+=================================================
 
-        	Para que seja possível executar qualquer uma das aplicações é necessário fazer o clone deste repositório e ter realizado a instalação, configuração e execução da infraestrutura.
-            Configuração do ambiente virtual para front-end
+Para que seja possível executar qualquer uma das aplicações é necessário fazer o clone deste repositório e ter realizado a instalação, configuração e execução da infraestrutura.
+            
+Configuração do ambiente virtual para front-end
+------------------------------------------------
 
-		    Executando a Aplicação Web
-        Usando a Aplicação com os dispositivos de Segurança
+Executando a Aplicação Web
+---------------------------
+
+Usando a Aplicação com os dispositivos de Segurança
+---------------------------------------------------
         
 
 
