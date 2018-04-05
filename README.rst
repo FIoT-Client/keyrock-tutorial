@@ -33,11 +33,14 @@ O PEP Proxy GE (PEP) atua como ponto de aplicação de políticas de segurança 
 Neste contexto, esse tutorial tem como objetivo ensinar aos usuários como conceber aplicações seguras utilizando conceitos autenticação e autorização através do uso das GE's de segurança da plataforma FIWARE. 
 
     
-    Instalação do ambiente
+Instalação do ambiente
+=======================
 
-    Agora iremos aprender a instalar o ambiente que você utilizará em sua aplicação
+Agora iremos aprender a instalar o ambiente que você utilizará em sua aplicação
 
-        Instalando o back-end: Docker (Infraestura com GE's FIWARE)
+.. begin-conceituacaoTeorica
+
+    Instalando o back-end: Docker (Infraestura com GE's FIWARE)
 
 	        Antes de colocar a infra em execução é necessário realizar algumas instalações:
 
@@ -50,6 +53,7 @@ Neste contexto, esse tutorial tem como objetivo ensinar aos usuários como conce
 			Após a instalação é necessário fazer clone ou download deste repositório:
 
 			- Faça clone deste repositório: `keyrock-tutorial <https://github.com/FIoT-Client/keyrock-tutorial>`_
+.. end-conceituacaoTeorica
 
         Configuração do ambiente virtual para o back-end
 
