@@ -100,7 +100,10 @@ Ao entrar na conta de administrador cadastre uma nova aplicação seguindo as in
 - Após o término da configuração teremos essa página:
 .. image:: documentacao/source/imagens/infos-cadastradas.png
 
-Onde as informações de client secret serão usuadas na sua aplicação. Na mesma página gere um PEP-Proxy, e use suas credenciais na sua aplicação também, essas informações devem ser editadas no guia de configuração.
+Onde as informações de client secret serão usuadas na sua aplicação. Na mesma página gere um PEP-Proxy, e use essas credenciais no arquivo config.js disponpivel em keyrock-tutorial/security-componentes/fiware-pep-proxy/files, assim modifique os seguintes atributos.::
+
+	config.username = 'pep_proxy-gerado-no-keyrock';
+	config.password = 'senha-gerada-pelo-pep';
 
 Instalando o front-end : Docker (Aplicações Web)
 =================================================
@@ -166,6 +169,16 @@ Posteriormente é necessário mudar as seguintes linhas.::
 
 Executando a Aplicação Web
 ---------------------------
+
+Após efetuar os passos anteriores, para rodar a aplicação desejada é necessário que:
+
+- Acessar a pasta keyrock-tutorial/security-tutorial/APLICAÇÃO-DESEJA/securityapp-ui e efetuar o seguinte comando.::
+	
+	sudo docker-compose up
+
+- Acessar a pasta keyrock-tutorial/security-tutorial/APLICAÇÃO-DESEJA/securityapp-rest e efetuar o seguinte comando.::
+
+	sudo docker-compose up
 
 Usando a Aplicação com os dispositivos de Segurança
 ===================================================
