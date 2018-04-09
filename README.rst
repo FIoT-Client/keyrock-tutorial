@@ -151,6 +151,19 @@ A aplicação 5 suporta projetos que possuem a seguinte arquitetura, que possui 
 Configuração do ambiente virtual para front-end
 ------------------------------------------------
 
+- Após escolhida a aplicação, abra o arquivo oauth_fiware.py disponível em Example-Application-Security/Python/APLICAÇÃO-ESCOLHIDA/securityapp-ui faça as seguintes modificações.::
+	
+	self.client_id = 'ID-APP-FIWARE'  
+    self.client_secret = 'ID-SECRET-APP-FIWARE'
+
+- Posteriormente é necessário mudar as seguintes linhas.::
+
+	self.redirect_uri = 'http://IP-APP:5055/auth' ;
+
+    self.proxy_address = "http://IP-APP:80/" ;
+    self.idm_address = 'http://IP-APP:8000/' ;
+
+
 Executando a Aplicação Web
 ---------------------------
 

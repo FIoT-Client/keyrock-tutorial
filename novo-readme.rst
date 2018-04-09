@@ -1,17 +1,4 @@
-*************************************
-Tutorial para Aplicações com Fiware 
-*************************************
- 
 
- Autores
- ===========
-
- Autores:
-
-    - Irene Ginani Costa Pinheiro
-    - Carlos Eduardo da Silva
-    - Gabriela Cavalcante da Silva
-    
 
 Introdução
 ==========
