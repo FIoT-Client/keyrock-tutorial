@@ -183,7 +183,12 @@ Após efetuar os passos anteriores, para rodar a aplicação desejada é necess�
 
 Usando a Aplicação com os dispositivos de Segurança
 ===================================================
-        
+
+Com as duas partes em funcionamento, acesse o link da sua aplicação que estará disponível em.::
+
+    http://IP-APP:5055/auth 
+
+Autentique-se e poderá ter acesso normalmente a aplicação criada. Para usar os elementos vinculados a autorização você terá que criar uma nova permissão e um novo papel, por default temos como recurso uma lista de usuários intitulada service2/lis, assim você deverá cadstrar esse recurso com o método GET em uma permissão. Depois disso crie um papel e atribua a permissão a este papel e salve sua política. Na tela inicial da sua aplicação você poderá dar acesso aos usuários, assim atribua o papel que acabou de criar ao usuário que você possui, neste caso o idm. Após feitos esses passos quando você se autenticar novamente e pressionar o botão que dá acesso a lista, você conseguirá vê-la através da interface em um JSON.   
 
 
 
