@@ -97,7 +97,7 @@ Ao entrar na conta de administrador cadastre uma nova aplicação seguindo as in
 - Aperte em "next" e escolha uma imagem para a aplicação, essa imagem é opcional
 .. image:: documentacao/source/imagens/exibir-aplicacao.png
 - Por fim, identifique a política de acesso para a sua aplicação, você poderá criar novas permissões e papéis através dessa interface.
-.. image:: documentacao/source/imagens/developer-portal.png    
+.. image:: documentacao/source/imagens/developer_portal.png    
 - Após o término da configuração teremos essa página:
 .. image:: documentacao/source/imagens/infos-cadastradas.png
 
@@ -186,7 +186,7 @@ Usando a Aplicação com os dispositivos de Segurança
 
 Com as duas partes em funcionamento, acesse o link da sua aplicação que estará disponível em.::
 
-    http://IP-APP:5055/
+    http://IP-APP:5055/	
 
 Autentique-se e poderá ter acesso normalmente a aplicação criada. Para usar os elementos vinculados a autorização você terá que criar uma nova permissão e um novo papel, por default temos como recurso uma lista de usuários intitulada service2/lis, assim você deverá cadstrar esse recurso com o método GET em uma permissão. Depois disso crie um papel e atribua a permissão a este papel e salve sua política. Na tela inicial da sua aplicação você poderá dar acesso aos usuários, assim atribua o papel que acabou de criar ao usuário que você possui, neste caso o idm. Após feitos esses passos quando você se autenticar novamente e pressionar o botão que dá acesso a lista, você conseguirá vê-la através da interface em um JSON.   
 
